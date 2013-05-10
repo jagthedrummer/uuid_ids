@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = UuidIds::VERSION
   s.authors     = ["Jeremy Green"]
   s.email       = ["jeremy@octolabs.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of UuidIds."
-  s.description = "TODO: Description of UuidIds."
+  s.homepage    = "https://github.com/jagthedrummer/uuid_ids"
+  s.summary     = "A simple gem to auto generate UUIDs for the id field of models."
+  s.description = "A simple gem to auto generate UUIDs for the id field of models."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
