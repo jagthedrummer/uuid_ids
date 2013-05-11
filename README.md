@@ -1,4 +1,4 @@
-* UuidIds
+# UuidIds
 
 A simple gem to make it easy to use UUIDs as the id for Rails models.
 
