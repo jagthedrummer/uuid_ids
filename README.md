@@ -21,4 +21,9 @@ Then inside of your model just do this:
 include UuidIds::ModelHelper
 ```
 
+If you need to you can set the id outside of the model.  If there is a
+collision (and you have a unique index) then an exception will be raised 
+and it's up to your app to handle that.  If you don't have a unique
+index and there is a collision you'll have two objects with the same id.
+
 This project rocks and uses MIT-LICENSE.
