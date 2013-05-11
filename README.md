@@ -6,7 +6,7 @@ Your table creation migration should look something like this:
 
 ```ruby
     create_table :things, :id => false do |t|
-      t.binary :id, :primary_key => true
+      t.binary :id, :primary_key => true, :null => false
       t.timestamps
     end
     add_index :things, :id, :unique => true
