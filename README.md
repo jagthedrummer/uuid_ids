@@ -2,6 +2,9 @@
 
 A simple gem to make it easy to use UUIDs as the id for Rails models.
 
+[![Gem Version](https://badge.fury.io/rb/uuid_ids.png)](http://badge.fury.io/rb/uuid_ids)
+
+
 Your table creation migration should look something like this:
 
 ```ruby
